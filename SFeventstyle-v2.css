@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section.hero-wrapper {
+    
+    background-image: url(https://my.hadassah.org/event-page-logo-fullwidth.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+
+img.hero-image {
+    display: none !important;
+}
+
+.content p {
+  font-size: 1.4rem !important:;
+  line-height: 1.8rem !important;
+}
+
+.content p span {
+    font-size: 1.6em !important;
+    line-height: 1.8em !important;
+}
+
+/*top calendar date display, hidden because this is a two day event*/
+.date-badge {display: none;}
+
+.starting-price .ng-star-inserted {display: none;}
+
+/*hiding the last ticket option on the home screen*/
+.event-overview-pricing:last-child {
+display: none;
+}
+
+
+/*hide organizer name from home page*/
+.organizer-name {display:none !important;}
+
+/*hide calendar icon *aka date badge* from home page*/
+.start-dates {
+    align-self: flex-start;
+    display: none;
+}
+
+/*title size and style*/
+.event-name {
+    font-size: 1.5rem !important; 
+}
+
+body {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif" !important;
+    font-size:
+    }
+    
+    
+.appbar.has-back.has-search.ng-star-inserted {
+
+    background-image: url("https://uploads-ssl.webflow.com/5f207c2cb5e70085bd1bd76e/64dbead5994a47c4a03edc8f_h%20logo%20padded.png") !important;
+    background-position: top left;
+    background-repeat: no-repeat;
+    }
+
+
+    
+.nav-container.ng-star-inserted {
+    margin-left: 75px !important;
+}
+
+button.mat-focus-indicator.back-button.mat-icon-button.mat-button-base.ng-star-inserted {
+    padding-left: 75px !important;
+}
+
+h1.title.ng-star-inserted{
+padding-left:30px;
+}
+
+
+@media only screen and (max-width: 37.4375rem){
+
+.appbar.has-back.has-search.ng-star-inserted {
+
+    background-image: none !important;
+
+    }
+}
